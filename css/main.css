@@ -1,0 +1,42 @@
+#controls,
+#search-form {
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#boxes {
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+ul > li {
+  list-style: none;
+  text-align: center;
+}
+
+ul > li > a > img {
+  width: 98%;
+  padding: 2%;
+}
+
+.intersetion-parent span {
+  display: block;
+  width: 1px;
+  height: 1px;
+}
+
+img {
+  cursor: pointer;
+}
