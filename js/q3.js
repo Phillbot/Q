@@ -67,10 +67,12 @@ const intersectionElem = () => {
     gallery.childNodes.length === 20 &&
     intersetionParent.children.length === 0
   ) {
+    intersetion.innerText = "Loading...";
     intersetionParent.appendChild(intersetion);
   }
 
   if (gallery.childNodes.length < 20) {
+    intersetion.innerText = "";
     destroyElems(intersetionParent);
     page = 1;
   }

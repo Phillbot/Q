@@ -19,11 +19,13 @@ ul {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  padding: 0;
 }
 
 ul > li {
   list-style: none;
   text-align: center;
+  padding: 10px;
 }
 
 ul > li > a > img {
@@ -31,10 +33,9 @@ ul > li > a > img {
   padding: 2%;
 }
 
-.intersetion-parent span {
-  display: block;
-  width: 1px;
-  height: 1px;
+.intersetion-parent {
+  text-align: center;
+  font-size: 1rem;
 }
 
 img {
